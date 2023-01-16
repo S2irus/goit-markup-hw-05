@@ -34,7 +34,7 @@
       "properties": {
         "order": 16,
         "id": 5,
-        "name": "Logo1",
+        "name": "logo1",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -84,7 +84,7 @@
       "properties": {
         "order": 17,
         "id": 4,
-        "name": "Logo2",
+        "name": "logo2",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -144,7 +144,7 @@
       "properties": {
         "order": 18,
         "id": 3,
-        "name": "Logo3",
+        "name": "logo3",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -184,7 +184,7 @@
       "properties": {
         "order": 19,
         "id": 2,
-        "name": "Logo4",
+        "name": "logo4",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -244,7 +244,7 @@
       "properties": {
         "order": 20,
         "id": 1,
-        "name": "Logo5",
+        "name": "logo5",
         "prevSize": 32
       },
       "setIdx": 0,
@@ -304,7 +304,7 @@
       "properties": {
         "order": 21,
         "id": 0,
-        "name": "Logo6",
+        "name": "logo6",
         "prevSize": 32
       },
       "setIdx": 0,
