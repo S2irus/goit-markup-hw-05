@@ -16,9 +16,9 @@
   </head>
 
   <body>
-    <div class="header-container container">
-      <header class="page-header">
-        <nav class="main-nav">
+    <header class="page-header">
+      <nav class="main-nav"> 
+        <div class="header-left">
           <a href="index.html" class="logo link"><span class="logo-highlight">Web</span>Studio</a>
           <ul class="unstyled-list horizontal-list contact-list">
             <li class="menu-item"><a class="main-nav-link link" href="index.html">Studio</a></li>
@@ -27,34 +27,36 @@
             </li>
             <li class="menu-item"><a class="main-nav-link link" href="index.html">Contacts</a></li>
           </ul>
-        </nav>
-        <ul class="contact-list unstyled-list horizontal-list contact-list">
-          <li class="contact-list-item">
-            <div class="header-icon">
-              <svg class="smartphone-icon">
-                <use href="../images/social-icons.svg#icon-envelope"></use>
-              </svg>
-            </div>
-          </li>
-          <li class="contact-list-item">
-            <a class="contact-nav-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="contact-list-item">
-            <div class="header-icon">
-              <svg class="smartphone-icon">
-                <use href="../images/social-icons.svg#icon-smartphone"></use>
-              </svg>
-            </div>
-          </li>
-          <li class="contact-list-item">
-            <a class="contact-nav-link link" href="tel:+12127724150">+1 212-772-4150</a>
-          </li>
-        </ul>
-      </header>
-    </div>
+        </div>
+        <div class="header-right">
+          <ul class="contact-list unstyled-list horizontal-list contact-list">
+            <li class="contact-list-item">
+              <div class="header-icon">
+                <svg class="smartphone-icon">
+                  <use href="../images/social-icons.svg#icon-envelope"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="contact-list-item">
+              <a class="contact-nav-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contact-list-item">
+              <div class="header-icon">
+                <svg class="smartphone-icon">
+                  <use href="../images/social-icons.svg#icon-smartphone"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="contact-list-item">
+              <a class="contact-nav-link link" href="tel:+12127724150">+1 212-772-4150</a>
+            </li>
+          </ul>
+        </div>  
+      </nav> 
+    </header>
     <main>
-      <div class="product-container">
-        <section class="product-button">
+      <section class="product-section">
+        <div class="product-button">
           <ul class="unstyled-list horizontal-list">
             <li><button class="page-button" type="button">All</button></li>
             <li><button class="page-button" type="button">Web-sites</button></li>
@@ -62,8 +64,8 @@
             <li><button class="page-button" type="button">Design</button></li>
             <li><button class="page-button" type="button">Marketing</button></li>
           </ul>
-        </section>
-        <section class="product-list-section container">
+        </div> 
+        <div class="product-box"></div>  
           <ul class="product-list">
             <li class="product-list-item">
               <img width="350px" src="images/technoduck.jpg" alt="Technoduck" />
@@ -111,71 +113,55 @@
               <p class="product-description">Apps</p>
             </li>
           </ul>
-        </section>
-      </div>
-        <div class="footer-container container">
-      <footer class="page-footer index-page-footer">
-        <div class="footer-left">
-        <a class="link logo logo-footer" href="index.html"
-          ><span class="logo-highlight">Web</span>Studio</a
-        >
-        <address class="footer-adress">
-          
-          <ul class="unstyled-list">
-            <li>
-              <a
-                class="link adress-link"
-                href="https://goo.gl/maps/ijt83v16eL8JcMWo8"
-                target="_blank"
-                >695 Park Ave, NY 10065, USA</a
-              >
-            </li>
-            <li>
-              <a class="link contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-              <a class="link contacts-link" href="tel:+12127724150">+1 212-772-4150</a>
-            </li>
-          </ul>
+        </div>    
+      </section>
+    </main>
+
+    <footer class="page-footer index-page-footer">
+      <address class="footer-adress">
+        <div class="footer-box">
+          <div class="footer-left">
+            <a class="link logo logo-footer" href="index.html"
+              ><span class="logo-highlight">Web</span>Studio</a>
+              <ul class="unstyled-list">
+                <li>
+                  <a class="link adress-link" href="https://goo.gl/maps/ijt83v16eL8JcMWo8" target="_blank">695 Park Ave, NY 10065, USA</a>
+                </li>
+                <li>
+                  <a class="link contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                  <a class="link contacts-link" href="tel:+12127724150">+1 212-772-4150</a>
+                </li>
+              </ul>
           </div>
           <div class="footer-right">
             <h4 class="footer-subtitle">FIND US ON</h4>
-             <ul class="unstyled-list social-list">
-                  <li class="social-list-item">
-                    <a href="#" target="_blank" class="footer-social-link">
-                      <svg class="social-icon">
-                        <use href="../images/social-icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item ">
-                    <a href="#" target="_blank" class="footer-social-link">
-                      <svg class="social-icon">
-                        <use href="../images/social-icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" target="_blank" class="footer-social-link">
-                      <svg class="social-icon">
-                        <use href="../images/social-icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="#" target="_blank" class="footer-social-link">
-                      <svg class="social-icon">
-                        <use href="../images/social-icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-          </div>
-        </address>
-      </footer>
-    </div>
+            <ul class="unstyled-list social-list">
+              <li class="social-list-item">
+                <a href="#" target="_blank" class="footer-social-link">
+                  <svg class="social-icon"><use href="../images/social-icons.svg#icon-instagram"></use></svg>
+                </a>
+              </li>
+              <li class="social-list-item ">
+                <a href="#" target="_blank" class="footer-social-link">
+                  <svg class="social-icon"><use href="../images/social-icons.svg#icon-twitter"></use></svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="#" target="_blank" class="footer-social-link">
+                  <svg class="social-icon"><use href="../images/social-icons.svg#icon-facebook"></use></svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="#" target="_blank" class="footer-social-link">
+                    <svg class="social-icon"><use href="../images/social-icons.svg#icon-linkedin"></use></svg>
+                </a>
+              </li>
+            </ul>
+          </div>  
+        </div>  
+      </address>
+    </footer>
   </body>
 </html>

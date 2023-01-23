@@ -14,10 +14,10 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  width: 1200px;
   background: var(--white-color);
   color: var(--subtitle-color);
 }
+
 .horizontal-list li,
 ul {
   display: inline;
@@ -56,21 +56,8 @@ ul {
 .link {
   text-decoration: none;
 }
-.container {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  width: 1200px;
-  padding: 0px 15px 0px 15px;
-}
-
 /*header*/
 
-.contact-list {
-  list-style: none;
-  margin-left: auto;
-  align-items: center;
-}
 .menu-item {
   list-style: none;
   margin-right: 50px;
@@ -81,11 +68,19 @@ ul {
 }
 .page-header {
   background-color: var(--white-color);
-  padding: 15px 100px;
   display: flex;
-  margin-left: 0%;
+  width: 1200px;
+  margin: 0 auto;
+  }
+.header-left{
+ display: flex;
+ flex-direction: row;
+ width: 50%;
+ padding-left: 150px;
 }
-
+.header-right{
+  width: 50%;
+}
 .logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -101,6 +96,10 @@ ul {
 }
 .main-nav {
   display: flex;
+  width: 100%;
+}
+.main-contact{
+  margin: 0 auto;
 }
 .main-nav-link {
   color: var(--subtitle-color);
@@ -111,7 +110,10 @@ ul {
   line-height: 16px;
   letter-spacing: 1.14;
 }
-
+.contact-list {
+  list-style: none;
+justify-content: flex-end;
+}
 .contact-nav-link {
   color: var(--subtitle-color);
   margin-right: 40px;
@@ -129,11 +131,16 @@ ul {
 
 /*Hero section*/
 
-.hero-container {
+.hero-box {
   margin: 0 auto;
   background-color: var(--dark-background);
+  height: 600px;
   padding-top: 200px;
   padding-bottom: 280px;
+  background-image: url('../images/slider.png');
+  background-repeat: no-repeat;
+   width: 1200px;
+  margin: 0 auto;
 }
 .hero-section {
   align-items: center;
@@ -168,6 +175,7 @@ ul {
   background-color: var(--highlight-color);
   color: var(--white-color);
   margin: auto;
+  border: none;
 }
 
 /*About section*/
@@ -175,6 +183,11 @@ ul {
 .about-section {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+}
+.about-section-box{
+   width: 1200px;
+  margin: 0 auto;
 }
 .about-section li {
   margin: 0%;
@@ -182,6 +195,7 @@ ul {
 .about-list {
   display: flex;
   justify-content: space-evenly;
+  list-style-type: none;
 }
 
 .about-text {
@@ -190,7 +204,6 @@ ul {
   letter-spacing: 0.03em;
 }
 .about-items {
-  display: flex;
   flex-direction: column;
   padding: 0px;
   width: 280px;
@@ -204,25 +217,36 @@ ul {
 }
 
 /*Our team section*/
+.our-team-box {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px 0px 15px;
+   width: 1200px;
+  margin: 0 auto;
+}
 .photo-footer {
   margin: 0%;
 }
-.our-team-section {
-  background: #f5f4fa;
+.our-team-section {  
   display: flex;
   flex-direction: column;
+}
+.our-team-box{
+background-color: #f5f4fa;
 }
 .our-team-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  gap: 30px;
+  justify-content: space-evenly;
 }
 .our-team-items {
-  margin-right: 30px;
   box-shadow: 0px 2px 1px 0px #00000033;
   box-shadow: 0px 1px 1px 0px #00000024;
   box-shadow: 0px 1px 3px 0px #0000001f;
   background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px
 }
 .our-team-image.no-gap {
   display: flex;
@@ -235,7 +259,6 @@ ul {
 .antenna-icon {
   width: 65px;
   height: 70px;
-
   background-color: var(--icon-backround);
 }
 .clock-icon {
@@ -288,8 +311,7 @@ ul {
   margin-right: 10px;
   align-items: center;
 }
-.header-icon {
-}
+
 .social-link:hover,
 .social-link:active,
 .social-link:focus {
@@ -340,9 +362,12 @@ ul {
 
 /*Regular customer section*/
 .customer-section {
-  width: 1170px;
-  padding: 0px 15px;
+  padding: 94px 15px;
   margin: 0%;
+}
+.customer-box{
+   width: 1200px;
+  margin: 0 auto;
 }
 .customer-list {
   display: flex;
@@ -367,17 +392,18 @@ ul {
 }
 
 /*footer section*/
-.footer-container {
-  display: flex;
-  flex-direction: column;
+.footer-box {
+display: flex;
+flex-direction: row;
+ 
 }
 .page-footer {
   background: #2f303a;
   color: var(--white-color);
   padding: 15px 50px;
-  display: flex;
-  flex-direction: row;
   align-items: center;
+  width: 1200px;
+  margin: 0 auto;
 }
 .adress-link {
   color: var(--white-color);
@@ -394,7 +420,7 @@ ul {
 .logo-footer {
   color: var(--white-color);
 }
-.footer-container{
+.footer-box{
   
 }
 .footer-social-link {
@@ -425,7 +451,10 @@ width: 44px;
 text-decoration: none;
 font-style: normal;
 }
-
+.product-section{
+   width: 1200px;
+  margin: 0 auto;
+}
 .product-list-item {
   display: inline-block;
   background: var(--white-color);
@@ -445,6 +474,8 @@ font-style: normal;
 .product-button {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 56px;
 }
 .product-title {
   margin-left: 24px;
