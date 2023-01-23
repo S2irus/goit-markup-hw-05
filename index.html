@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>homework4</title>
+    <title>homework5</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -16,6 +16,13 @@
   </head>
 
   <body>
+    <div class="modal is-hidden" data-modal>
+      <div class="inner-modal">
+        <button type="button" class="close-modal" data-modal-close><svg class="close-icon">
+                    <use href="../images/social-icons.svg#icon-close"></use>
+                  </svg></button>
+      </div>
+    </div>
     <header class="page-header">
       <nav class="main-nav"> 
         <div class="header-left">
@@ -63,7 +70,7 @@
             EFFECTIVE SOLUTIONS FOR <br />
             YOUR BUSINESS
           </h1>
-          <button class="hero-button button" type="button">Request our service</button>
+          <button class="hero-button button" type="button" data-modal-open>Request our service</button>
         </div>
       </section>
       <!--About section-->
@@ -408,5 +415,6 @@
         </div>  
       </address>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
